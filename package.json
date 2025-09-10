@@ -1,0 +1,55 @@
+{
+  "name": "syllabus-to-calendar",
+  "version": "1.0.0",
+  "description": "Upload a syllabus and automatically turn assignments, readings, and exams into tasks on a calendar.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "deploy": "vercel --prod",
+    "preview": "vercel"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.5.5",
+    "@types/pdf-parse": "^1.1.4",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.8",
+    "googleapis": "^144.0.0",
+    "lucide-react": "^0.438.0",
+    "multer": "^1.4.5-lts.1",
+    "next": "^14.2.8",
+    "openai": "^4.56.0",
+    "pdf-parse": "^1.1.1",
+    "postcss": "^8.4.45",
+    "react": "^18.3.1",
+    "react-calendar": "^5.0.0",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ibraheem715/syllabus-to-calendar.git"
+  },
+  "keywords": [
+    "calendar",
+    "syllabus",
+    "ai",
+    "pdf",
+    "education"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ibraheem715/syllabus-to-calendar/issues"
+  },
+  "homepage": "https://github.com/Ibraheem715/syllabus-to-calendar#readme"
+}
